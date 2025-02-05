@@ -1,7 +1,7 @@
 #Arsatech-Vital-Tracker
 🚀 ESP32-based real-time health monitoring system
 
-Overview
+
 Arsatech-Vital-Tracker is a real-time health monitoring system based on ESP32 Wroom DA, developed during an internship at Arsatechnology. This system collects and visualizes biometric sensor data, displaying it in a medical-style graphical interface for real-time monitoring.
 
 Features
