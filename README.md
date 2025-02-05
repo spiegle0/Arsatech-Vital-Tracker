@@ -1,33 +1,37 @@
-#Arsatech-Vital-Tracker.
+# 🏥 Arsatech-Vital-Tracker
 
-🚀 ESP32-based real-time health monitoring system
+**Real-time Health Monitoring System using ESP32 & Python Visualization**  
 
-#Overview
-Arsatech-Vital-Tracker is a real-time health monitoring system based on ESP32 Wroom DA, developed during an internship at #Arsatechnology. This system collects and visualizes biometric sensor data, displaying it in a medical-style graphical #interface for real-time monitoring.
+🚀 Developed as part of an internship at **Arsatechnology**, this system collects and visualizes real-time biometric sensor data using an **ESP32 Wroom DA**. It includes two implementations:  
 
-#Code Versions
-This project includes two versions of code:
+- **ESP32 (Arduino IDE)** – Reads sensor data and transmits it via serial communication.  
+- **Python (PC Visualization)** – Processes and displays the data in a **medical-style live graph** using **Matplotlib**.  
 
-1.ESP32 (Arduino IDE) – The firmware that runs on the ESP32 to read data from sensors and send it via Serial communication.
-2.Python (PC Visualization) – A Python script that reads the serial data from ESP32 and visualizes it using Matplotlib in a medical-style graph.
-#Features :
-✅ Body & Ambient Temperature Monitoring – Uses MLX90614 to measure object and ambient temperature (0-100°C).
-✅ Heart Rate & SpO2 Tracking – Uses MAX30102 to detect heart rate (40-180 BPM) and oxygen saturation (80-100%).
-✅ Object Detection – Uses TCRT5000 to detect object presence with a binary output (0 = no object, 1 = object detected).
-✅ Real-Time Visualization – Displays sensor data in a live medical-style graph using Python & Matplotlib.
+---
 
-#Hardware Requirements
--ESP32 Wroom DA
--MLX90614 (Infrared Temperature Sensor)
--MAX30102 (Pulse Oximeter & Heart Rate Sensor)
--TCRT5000 (Optical Sensor for Object Detection)
+## 📌 Features  
 
-#Software Requirements
--Arduino IDE (for ESP32 programming)
--Python 3.x with required libraries:
--pyserial – for serial communication
--matplotlib – for data visualization
--threading – for handling serial data asynchronously
+✅ **Body & Ambient Temperature Monitoring**  
+- Uses **MLX90614** to measure object & ambient temperature (0-100°C).  
+
+✅ **Heart Rate & SpO₂ Tracking**  
+- Uses **MAX30102** to detect heart rate (40-180 BPM) and oxygen saturation (80-100%).  
+
+✅ **Object Detection**  
+- Uses **TCRT5000** to detect object presence (0 = No object, 1 = Object detected).  
+
+✅ **Real-Time Medical Graph Visualization**  
+- Displays sensor data dynamically using **Matplotlib** in Python.  
+
+---
+
+## 🛠️ Hardware Requirements  
+
+- **ESP32 Wroom DA**  
+- **MLX90614** (Infrared Temperature Sensor)  
+- **MAX30102** (Pulse Oximeter & Heart Rate Sensor)  
+- **TCRT5000** (Object Detection Sensor)  
+
 
 
 
